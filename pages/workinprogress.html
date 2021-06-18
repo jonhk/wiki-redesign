@@ -1,0 +1,77 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book - Wikipedia | Concept Redesign | GR DES 65 | Jonathan Hackner</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zyo6cxv.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/default.css">
+    <!-- NOTE: HTML code below and css LinLibertine_R-altw.css generated from Fontlab 7 export of Web-TT fonts (HTML document) (file location modification of html link by designer of code Jonathan Hackner) -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/LinLibertine_R-altw.css">
+    <!-- NOTE: End of code -->
+  </head>
+  <body id="body-login">
+    <header id="title_section">
+      <nav style="text-decoration: none; list-style: none;">
+        <ul id="header_nav" style="padding-left: 0; margin: 0;">
+          <li style="padding-left: 2.5%;">
+            <a href="../index.html">
+              <div class="w-letter-logo-icon-wrapper">
+                <img class="w-letter-logo-icon" src="../svg/w-wikipedia-logo.svg" alt="">
+              </div>
+            </a>
+          </li>
+          <li>
+            <form action="../index.html" method="GET" id="small_search_bar-area">
+              <div id="small_search_bar">
+              <input type="text" name="search" id="small_search_bar-content">
+              <button type="submit" id="small_ask_wiki-icon-frame" alt="Ask Wiki Virtual Assistant.">
+                <iframe id="small_ask_wiki-icon" src="../svg/Wikipedia-logo-v2-mod.svg" frameborder="0" allowfullscreen sandbox></iframe>
+              </button>
+              </div>
+            </form>
+          </li>
+          <li class="header_nav-right-items" style="margin-right: 2.5%;">
+            <a href="">
+              <span>Notifications</span>
+            </a>
+          </li>
+          <li class="header_nav-right-items">
+            <a href="">
+              <span>Contributions</span>
+            </a>
+          </li>
+          <li class="header_nav-right-items">
+            <a href="">
+              <span>Account</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Log In</h1>
+    </header>
+    <main>
+      <form id="account-page" action="../index.html" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username"  name="username" autofocus required>
+        <label for="password" style="margin-top: 3%;">Password</label>
+        <input type="password"  name="password" id="password" required>
+        <label for="checkbox" style="display: inline-block;" id="checkbox_password-text"><p>Show password</p></label>
+        <input id="checkbox_password" type="checkbox" name="checkbox" style="margin-bottom: 5%; display: inline-block;" onclick="myFunction()">
+        <input type="submit" value="Log In" class="button-settings">
+      </form>
+      <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }      
+      </script>
+      <p class="information-section-account-choice" style="text-align: center;"><a href="#"><span>Additional <strong>help</strong> logging in?</span></a></p>
+    </main>
+  </body>
+</html>
